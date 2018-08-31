@@ -1,10 +1,10 @@
 LabVIEW_LJM - LabVIEW drivers/examples for LJM
 support@labjack.com
 
-August 15, 2014
+June 28th, 2018
 
 Compatible with LabVIEW 7.1 or higher.  Requires the
-LabJack UD driver.
+LabJack M (LJM) driver.
 
 Note that National Instruments provides a driver called NI-DAQ
 for their hardware.  We have to provide our own library, called
@@ -23,12 +23,12 @@ C or similar, so any text based examples you see in our documentation
 will usually map easily to LabVIEW.
 
 The downloadable zip file "LabVIEW_LJM.zip" extracts to a single
-folder called "LabVIEW_LJM" which contains this readme file and a
-few subfolders.  The folder can be stored anywhere, but if you want
-icons to show up on the LabVIEW function palette (after restarting
-LabVIEW), place this folder under:
+folder called "LabVIEW_LJM" which contains this readme file, a
+dir.mnu file, and a few subfolders.  The folder can be stored
+anywhere, but if you want icons to show up on the LabVIEW function
+palette (after restarting LabVIEW), place this folder under:
 
-...\national instruments\labview #\vi.lib\addons\
+...\national instruments\labview #\user.lib
 
 If the function palette icons are not required, put the LabVIEW_LJM
 folder wherever you want.  We have found that most people, including
